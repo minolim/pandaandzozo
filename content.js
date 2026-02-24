@@ -39,8 +39,8 @@ const SITE_CONTENT = {
 
   // ---- PRICING ----
   pricing: [
-    { amount: 36, currency: "€", duration_en: "1.5 hours", duration_fr: "1h30" },
-    { amount: 45, currency: "€", duration_en: "2 hours",   duration_fr: "2 heures" },
+    { amount: 45, currency: "€", duration_en: "1.5 hours", duration_fr: "1.5 heures" },
+    { amount: 60, currency: "€", duration_en: "2 hours",   duration_fr: "2 heures" },
   ],
 
   // ---- NAVIGATION ----
