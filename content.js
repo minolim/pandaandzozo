@@ -47,7 +47,7 @@ const SITE_CONTENT = {
   nav: {
     home:  { en: "Home",  fr: "Accueil" },
     about: { en: "About", fr: "À propos" },
-    where: { en: "Where", fr: "Où" },
+    where: { en: "Contact Us", fr: "Contact" },
   },
 
   // ---- HOME PAGE ----
