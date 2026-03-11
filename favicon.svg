@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <ellipse cx="32" cy="42" rx="12" ry="10" fill="#E02020"/>
+  <ellipse cx="16" cy="24" rx="7" ry="9" fill="#E02020" transform="rotate(-15 16 24)"/>
+  <ellipse cx="30" cy="18" rx="7" ry="9" fill="#E02020" transform="rotate(-5 30 18)"/>
+  <ellipse cx="44" cy="20" rx="7" ry="9" fill="#E02020" transform="rotate(10 44 20)"/>
+  <ellipse cx="54" cy="30" rx="6" ry="8" fill="#E02020" transform="rotate(20 54 30)"/>
+</svg>

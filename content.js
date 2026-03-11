@@ -101,8 +101,8 @@ const SITE_CONTENT = {
         "Every dog I walk is treated like family. No packed groups, no rushing, no shortcuts. Just genuine care, fresh air, and plenty of tail-wagging through the best streets and parks Paris has to offer.",
       ],
       fr: [
-        "Il n'y a pas si longtemps, j'étais plongé dans le monde de l'entreprise : longues journées, réunions interminables, la routine. Ça payait les factures, mais il manquait quelque chose. Le déclic est venu grâce à mes chiens, Panda et Zozò. Les heures passées à les promener dans les rues de Paris étaient le meilleur moment de ma journée.",
-        "Alors j'ai fait un choix : quitter le bureau et faire ce qui me rend vraiment heureux : moi et une meute grandissante de chiens parisiens. Panda & Zozò est né de cette idée simple : les promenades doivent être longues, joyeuses et sans pression, comme celles que je partage chaque jour avec mes propres chiens.",
+        "Il n'y a pas si longtemps, j'étais plongé dans le monde de l'entreprise: longues journées, réunions interminables, la routine. Ça payait les factures, mais il manquait quelque chose. Le déclic est venu grâce à mes chiens, Panda et Zozò. Les heures passées à les promener dans les rues de Paris étaient le meilleur moment de ma journée.",
+        "Alors j'ai fait un choix: quitter le bureau et faire ce qui me rend vraiment heureux: moi et une meute grandissante de chiens parisiens. Panda & Zozò est né de cette idée simple: les promenades doivent être longues, joyeuses et sans pression, comme celles que je partage chaque jour avec mes propres chiens.",
         "Chaque chien que je promène est traité comme un membre de la famille. Pas de groupes surchargés, pas de précipitation, pas de raccourcis. Juste de l'attention sincère, de l'air frais et beaucoup de queues qui remuent dans les plus belles rues et parcs de Paris.",
       ],
     },
@@ -171,8 +171,8 @@ const SITE_CONTENT = {
 
   // ---- SEO (edit for search engine optimisation) ----
   seo: {
-    title_en: "Panda & Zozò — Premium Dog Walking in Paris Rive Gauche | Promenades Canines de Luxe Rive Gauche",
-    title_fr: "Panda & Zozò — Promenades Canines de Luxe à Paris | Premium Dog Walking",
+    title_en: "Panda & Zozò: Premium Dog Walking in Paris Rive Gauche | Promenades Canines de Luxe Rive Gauche",
+    title_fr: "Panda & Zozò: Promenades Canines de Luxe à Paris | Premium Dog Walking",
     description_en: "Luxury dog walking service in Paris. 1.5–2 hour unhurried walks through the 6th arrondissement, Rive Gauche, and beyond. Positive reinforcement, personalised care, premium quality. WhatsApp to book.",
     description_fr: "Service de promenades canines haut de gamme à Paris. Balades de 1h30 à 2h dans le 6ème arrondissement, Rive Gauche, et au-delà. Renforcement positif, soins personnalisés, qualité premium.",
     keywords: "dog walking Paris, promenade chien Paris, dog walker 6ème, rive gauche, luxury dog walking, premium dog walking Paris, promenade canine haut de gamme, dog sitter Paris, dog walking Saint-Germain, promenade chien Luxembourg, dog walking 75006, pet care Paris, garde chien Paris, positive reinforcement dog walking, balade chien Paris 6, dog walking Jardin du Luxembourg, promenade chien Saint-Germain-des-Prés, high end dog walking Paris, dog walker Paris expat, promenade longue chien Paris",

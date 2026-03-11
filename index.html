@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- SEO: Primary Meta (populated by content.js on load) -->
-  <title>Panda &amp; Zozò — Premium Dog Walking in Paris | Promenades Canines de Luxe</title>
+  <title>Panda & Zozò: Premium Dog Walking in Paris</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <meta name="description" content="Luxury dog walking service in Paris. 1.5–2 hour unhurried walks through the 6th arrondissement and beyond. Positive reinforcement, personalised care, premium quality.">
   <meta name="keywords" content="dog walking Paris, promenade chien Paris, dog walker 6ème, luxury dog walking, premium dog walking Paris, promenade canine haut de gamme, dog sitter Paris, dog walking Saint-Germain, promenade chien Luxembourg, dog walking 75006, pet care Paris, garde chien Paris, positive reinforcement dog walking, balade chien Paris 6, dog walking Jardin du Luxembourg, high end dog walking Paris, dog walker Paris expat, promenade longue chien Paris">
   <meta name="author" content="Panda &amp; Zozò">
@@ -15,7 +16,7 @@
 
   <!-- SEO: Open Graph (Facebook, LinkedIn, iMessage) -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Panda &amp; Zozò — Premium Dog Walking in Paris">
+  <meta property="og:title" content="Panda &amp; Zozò: Premium Dog Walking in Paris">
   <meta property="og:description" content="Luxury dog walking service in Paris. 1.5–2 hour unhurried walks with positive reinforcement and personalised care.">
   <meta property="og:url" content="https://panda-zozo.com/">
   <meta property="og:site_name" content="Panda &amp; Zozò">
@@ -24,7 +25,7 @@
 
   <!-- SEO: Twitter Card -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Panda &amp; Zozò — Premium Dog Walking in Paris">
+  <meta name="twitter:title" content="Panda &amp; Zozò: Premium Dog Walking in Paris">
   <meta name="twitter:description" content="Luxury dog walking in Paris. Long, joyful, unhurried promenades for your dog.">
 
   <!-- SEO: Geo targeting -->
@@ -35,7 +36,7 @@
 
   <!-- SEO: Hreflang for bilingual -->
   <link rel="alternate" hreflang="en" href="https://panda-zozo.com/">
-  <link rel="alternate" hreflang="fr" href="https://panda-zozo.com/">
+  <link rel="alternate" hreflang="fr" href="https://panda-zozo.com/fr/">
   <link rel="alternate" hreflang="x-default" href="https://panda-zozo.com/">
 
   <!-- SEO: JSON-LD Structured Data -->
@@ -442,12 +443,10 @@
   <h3>Premium Dog Walking Service in Paris 6th Arrondissement</h3>
   <p>Panda and Zozò offers luxury dog walking services in Paris, specialising in the 6th arrondissement (Saint-Germain-des-Prés), 7th arrondissement, and 5th arrondissement. Our premium dog walks last 1.5 to 2 hours through the Jardin du Luxembourg, Saint-Germain-des-Prés, and other beautiful Parisian parks and streets.</p>
   <p>We provide high-end, personalised dog care with positive reinforcement training methods. Whether you need a dog walker near Jardin du Luxembourg, a dog sitter in the 6ème, or premium pet care in central Paris, Panda and Zozò delivers quality, unhurried promenades for your dog.</p>
-  <p>Service de promenade canine haut de gamme à Paris 6ème arrondissement. Promenades de luxe pour chiens dans le quartier Saint-Germain-des-Prés, le 7ème et le 5ème arrondissement. Balades de 1h30 à 2h au Jardin du Luxembourg et dans les plus beaux quartiers parisiens. Dog walker Paris expat friendly. Garde de chien premium Paris centre.</p>
   <ul>
-    <li>Dog walking Paris 6th arrondissement - from 36€</li>
+    <li>Dog walking Paris 6th arrondissement - from 45€</li>
     <li>Premium dog walker Saint-Germain-des-Prés</li>
     <li>Luxury dog walking Jardin du Luxembourg</li>
-    <li>Promenade chien haut de gamme Paris 75006</li>
     <li>Dog sitter Paris expat community</li>
     <li>Positive reinforcement dog walking Paris</li>
     <li>Long duration dog walks Paris (1.5-2 hours)</li>
@@ -539,7 +538,7 @@
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.5343770696336!2d2.3202415763174677!3d48.84801960143643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6718707a740f5%3A0x39344a3d6609801e!2sPanda%20and%20Zoz%C3%B2%20-%20Dog%20Walking%20Service!5e0!3m2!1sen!2sit!4v1773222808091!5m2!1sen!2sit"
         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-        title="Panda & Zozò service area — Paris 6th, 7th & 5th arrondissements">
+        title="Panda & Zozò service area: Paris 6th, 7th & 5th arrondissements">
       </iframe>
     </div>
   </div>
@@ -616,7 +615,7 @@
     if (C.images.dog2.show) {{
       d2.src = C.images.dog2.src;
       d2wrap.style.display = '';
-      d2wrap.style.marginLeft = C.images.dog1.show ? '' : '0';
+      d2wrap.style.marginLeft = C.images.dog1.show ? '': '0';
     }} else {{
       d2wrap.style.display = 'none';
     }}
@@ -646,10 +645,10 @@
 
     // Pricing
     const pc = document.getElementById('pricing-container');
-    const durKey = L === 'fr' ? 'duration_fr' : 'duration_en';
+    const durKey = L === 'fr' ? 'duration_fr': 'duration_en';
     pc.innerHTML = '<div class="pricing-cards">' +
       C.pricing.map((p, i) =>
-        (i > 0 ? '<div class="pricing-divider"></div>' : '') +
+        (i > 0 ? '<div class="pricing-divider"></div>': '') +
         '<div class="pricing-card">' +
         '<div class="pricing-amount">' + p.amount + '<span class="pricing-currency"> ' + p.currency + '</span></div>' +
         '<div class="pricing-duration">' + p[durKey] + '</div>' +
@@ -723,13 +722,17 @@
   // Initial render
   render();
 
-  // Handle hash navigation (from about.html, where.html redirects)
-  if (window.location.hash) {
-    const page = window.location.hash.replace('#', '');
-    if (['home', 'about', 'where'].indexOf(page) !== -1) {
-      setPage(page);
+  // Handle hash navigation and language from redirects
+  (function() {
+    var params = new URLSearchParams(window.location.search);
+    if (params.get('lang') === 'fr') { setLang('fr'); }
+    if (window.location.hash) {
+      var page = window.location.hash.replace('#', '');
+      if (['home', 'about', 'where'].indexOf(page) !== -1) {
+        setPage(page);
+      }
     }
-  }
+  })();
 </script>
 </body>
 </html>
