@@ -30,20 +30,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://panda-zozo.com/where.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://panda-zozo.com/where.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://panda-zozo.com/fr/where.html"/>
-    <lastmod>2026-03-11</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://panda-zozo.com/fr/where.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://panda-zozo.com/where.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://panda-zozo.com/fr/where.html"/>
-    <lastmod>2026-03-11</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://panda-zozo.com/contact.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://panda-zozo.com/contact.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://panda-zozo.com/fr/contact.html"/>

@@ -30,9 +30,7 @@ Panda & Zozò provides premium, unhurried dog walks lasting 1.5 to 2 hours throu
 
 - [Home](https://panda-zozo.com/): Main page with service overview, pricing, and reviews
 - [About](https://panda-zozo.com/about.html): The story behind Panda & Zozò
-- [Where We Walk](https://panda-zozo.com/where.html): Walking routes and areas in Paris
 - [Contact](https://panda-zozo.com/contact.html): Book a walk via WhatsApp
 - [Accueil (FR)](https://panda-zozo.com/fr/): French homepage
 - [À Propos (FR)](https://panda-zozo.com/fr/about.html): French about page
-- [Où Nous Promenons (FR)](https://panda-zozo.com/fr/where.html): French walking areas
 - [Contact (FR)](https://panda-zozo.com/fr/contact.html): French contact page
