@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://panda-zozo.com/sitemap.xml
-Llms-txt: https://panda-zozo.com/llms.txt
