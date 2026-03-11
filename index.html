@@ -625,13 +625,7 @@
 </article>
 
 <footer>
-  <nav aria-label="Footer navigation" style="margin-bottom:12px;">
-    <a href="/" style="color:var(--red);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;">Home</a> ·
-    <a href="/about.html" style="color:var(--text-light);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;">About</a> ·
-    <a href="/where.html" style="color:var(--text-light);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;">Where</a> ·
-    <a href="/contact.html" style="color:var(--text-light);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;">Contact</a> ·
-    <a href="/fr/" style="color:var(--text-light);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;">Français</a>
-  </nav>
+  <nav aria-label="Footer navigation" id="footer-nav" style="margin-bottom:12px;"></nav>
   <span id="footer-text"></span>
 </footer>
 
@@ -739,6 +733,23 @@
 
     // Footer
     document.getElementById('footer-text').textContent = C.footer[L];
+    var ls = 'color:var(--text-light);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;';
+    var as = 'color:var(--red);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;';
+    if (L === 'fr') {
+      document.getElementById('footer-nav').innerHTML =
+        '<a href="/fr/" style="' + as + '">Accueil</a> · ' +
+        '<a href="/fr/about.html" style="' + ls + '">À propos</a> · ' +
+        '<a href="/fr/where.html" style="' + ls + '">Où</a> · ' +
+        '<a href="/fr/contact.html" style="' + ls + '">Contact</a> · ' +
+        '<a href="/" style="' + ls + '">English</a>';
+    } else {
+      document.getElementById('footer-nav').innerHTML =
+        '<a href="/" style="' + as + '">Home</a> · ' +
+        '<a href="/about.html" style="' + ls + '">About</a> · ' +
+        '<a href="/where.html" style="' + ls + '">Where</a> · ' +
+        '<a href="/contact.html" style="' + ls + '">Contact</a> · ' +
+        '<a href="/fr/" style="' + ls + '">Français</a>';
+    }
 
     // Where page
     document.getElementById('logo-where').textContent = C.brand.name;
