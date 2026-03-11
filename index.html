@@ -722,6 +722,14 @@
 
   // Initial render
   render();
+
+  // Handle hash navigation (from about.html, where.html redirects)
+  if (window.location.hash) {
+    const page = window.location.hash.replace('#', '');
+    if (['home', 'about', 'where'].indexOf(page) !== -1) {
+      setPage(page);
+    }
+  }
 </script>
 </body>
 </html>
