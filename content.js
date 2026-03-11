@@ -47,6 +47,7 @@ const SITE_CONTENT = {
   nav: {
     home:  { en: "Home",  fr: "Accueil" },
     about: { en: "About", fr: "À propos" },
+    where: { en: "Where", fr: "Où" },
   },
 
   // ---- HOME PAGE ----
@@ -103,6 +104,67 @@ const SITE_CONTENT = {
         "Il n'y a pas si longtemps, j'étais plongé dans le monde de l'entreprise : longues journées, réunions interminables, la routine. Ça payait les factures, mais il manquait quelque chose. Le déclic est venu grâce à mes chiens, Panda et Zozò. Les heures passées à les promener dans les rues de Paris étaient le meilleur moment de ma journée.",
         "Alors j'ai fait un choix : quitter le bureau et faire ce qui me rend vraiment heureux : moi et une meute grandissante de chiens parisiens. Panda & Zozò est né de cette idée simple : les promenades doivent être longues, joyeuses et sans pression, comme celles que je partage chaque jour avec mes propres chiens.",
         "Chaque chien que je promène est traité comme un membre de la famille. Pas de groupes surchargés, pas de précipitation, pas de raccourcis. Juste de l'attention sincère, de l'air frais et beaucoup de queues qui remuent dans les plus belles rues et parcs de Paris.",
+      ],
+    },
+  },
+
+  // ---- WHERE PAGE ----
+  where: {
+    subtitle: {
+      en: "Our Territory",
+      fr: "Notre Territoire",
+    },
+    tagline: {
+      en: "Where we walk in Paris",
+      fr: "Où nous promenons à Paris",
+    },
+    areasLabel: {
+      en: "Our Arrondissements",
+      fr: "Nos Arrondissements",
+    },
+    areas: [
+      {
+        arrond: "6ème",
+        name: { en: "Saint-Germain-des-Prés", fr: "Saint-Germain-des-Prés" },
+        desc: {
+          en: "Our home base. Quiet residential streets, leafy squares, and the magnificent Jardin du Luxembourg — the crown jewel of every walk.",
+          fr: "Notre quartier. Rues résidentielles calmes, places verdoyantes, et le magnifique Jardin du Luxembourg — le joyau de chaque promenade.",
+        },
+        tags: ["Jardin du Luxembourg", "Rue de Fleurus", "Place Saint-Sulpice", "Rue de Vaugirard"],
+      },
+      {
+        arrond: "7ème",
+        name: { en: "Invalides & Champ de Mars", fr: "Invalides & Champ de Mars" },
+        desc: {
+          en: "Wide boulevards, quiet side streets along the Esplanade des Invalides, and peaceful walks towards the Champ de Mars.",
+          fr: "Larges boulevards, rues calmes le long de l'Esplanade des Invalides, et promenades paisibles vers le Champ de Mars.",
+        },
+        tags: ["Esplanade des Invalides", "Rue Cler", "Rue de Grenelle", "Champ de Mars"],
+      },
+      {
+        arrond: "5ème",
+        name: { en: "Latin Quarter", fr: "Quartier Latin" },
+        desc: {
+          en: "Charming cobblestone streets, the Jardin des Plantes for nature lovers, and calm paths along the Seine — perfect for curious dogs.",
+          fr: "Rues pavées charmantes, le Jardin des Plantes pour les amoureux de la nature, et des chemins calmes le long de la Seine — parfait pour les chiens curieux.",
+        },
+        tags: ["Jardin des Plantes", "Rue Mouffetard", "Arènes de Lutèce", "Square René Viviani"],
+      },
+    ],
+    details: {
+      title: {
+        en: "Every walk, an adventure",
+        fr: "Chaque promenade, une aventure",
+      },
+      text: {
+        en: "Our walks are never rushed. Each one lasts 1.5 to 2 hours, giving your dog time to explore, sniff, socialise, and simply enjoy being a dog in one of the world's most beautiful cities.",
+        fr: "Nos promenades ne sont jamais pressées. Chacune dure 1h30 à 2 heures, laissant à votre chien le temps d'explorer, renifler, socialiser, et simplement profiter d'être un chien dans l'une des plus belles villes du monde.",
+      },
+      items: [
+        { label: { en: "Duration", fr: "Durée" }, value: { en: "1.5 – 2 hours", fr: "1h30 – 2 heures" } },
+        { label: { en: "Starting from", fr: "À partir de" }, value: { en: "45 €", fr: "45 €" } },
+        { label: { en: "Method", fr: "Méthode" }, value: { en: "Positive only", fr: "Renforcement positif" } },
+        { label: { en: "Coverage", fr: "Zone" }, value: { en: "5e · 6e · 7e", fr: "5e · 6e · 7e" } },
       ],
     },
   },

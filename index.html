@@ -10,6 +10,7 @@
   <meta name="keywords" content="dog walking Paris, promenade chien Paris, dog walker 6ème, luxury dog walking, premium dog walking Paris, promenade canine haut de gamme, dog sitter Paris, dog walking Saint-Germain, promenade chien Luxembourg, dog walking 75006, pet care Paris, garde chien Paris, positive reinforcement dog walking, balade chien Paris 6, dog walking Jardin du Luxembourg, high end dog walking Paris, dog walker Paris expat, promenade longue chien Paris">
   <meta name="author" content="Panda &amp; Zozò">
   <meta name="robots" content="index, follow">
+  <meta name="google-site-verification" content="WD7DNbyd-BCys695m2XvCkhCVBcsXQdWw7TmK6kLWuA">
   <link rel="canonical" href="https://panda-zozo.com/">
 
   <!-- SEO: Open Graph (Facebook, LinkedIn, iMessage) -->
@@ -94,6 +95,48 @@
       ]
     },
     "sameAs": []
+  }
+  </script>
+
+  <!-- SEO: FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How long are the dog walks with Panda & Zozò?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every walk lasts between 1.5 and 2 hours. We never rush — your dog gets the time they need to explore, sniff, and enjoy."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which areas of Paris do you cover?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We walk dogs in the 6th arrondissement (Saint-Germain-des-Prés), 7th arrondissement (Invalides), and 5th arrondissement (Latin Quarter). Our favourite routes include Jardin du Luxembourg, Champ de Mars, and Jardin des Plantes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you speak English?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We communicate in English, French, and Italian. Many of our clients are expats living in Paris."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does dog walking cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A 1.5-hour walk costs 45€ and a 2-hour walk costs 60€. Contact us via WhatsApp for packages and regular bookings."
+        }
+      }
+    ]
   }
   </script>
 
@@ -282,7 +325,8 @@
     }
     .page.active header { animation: fadeUp 0.7s ease both; }
     .page.active .dogs-illustration,
-    .page.active .about-illustration { animation: fadeUp 0.7s 0.15s ease both; }
+    .page.active .about-illustration,
+    .page.active .map-wrapper { animation: fadeUp 0.7s 0.15s ease both; }
     .page.active main,
     .page.active .about-content { animation: fadeUp 0.7s 0.3s ease both; }
     .page.active .cta-inline { animation: fadeUp 0.7s 0.35s ease both; }
@@ -313,6 +357,74 @@
       .pricing-amount { font-size: 26px; }
       .pricing-divider { height: 36px; }
     }
+    /* WHERE PAGE */
+    .map-wrapper { padding: 0 28px; max-width: 680px; margin: 0 auto 8px; }
+    .map-container {
+      width: 100%; height: 380px; border-radius: 8px; overflow: hidden;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+    }
+    .map-container iframe { width: 100%; height: 100%; border: 0; }
+    .areas-label {
+      font-size: 10px; text-transform: uppercase; letter-spacing: 3px;
+      color: var(--red); margin-bottom: 16px; text-align: center;
+    }
+    .areas-grid { display: flex; flex-direction: column; gap: 16px; }
+    .area-card {
+      background: var(--white); border-radius: 8px; padding: 20px 24px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .area-card:hover { transform: translateY(-2px); box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+    .area-arrond {
+      font-size: 10px; text-transform: uppercase; letter-spacing: 2px;
+      color: var(--red); margin-bottom: 2px;
+    }
+    .area-name {
+      font-size: clamp(16px, 3vw, 20px); color: var(--text);
+      margin-bottom: 6px; font-weight: 700;
+    }
+    .area-desc {
+      font-size: clamp(11px, 1.8vw, 13px); color: var(--text-body);
+      font-weight: 300; line-height: 1.7; margin-bottom: 10px;
+    }
+    .area-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    .area-tag {
+      font-size: 10px; background: var(--bg); color: var(--text-light);
+      padding: 4px 10px; border-radius: 20px; letter-spacing: 0.3px;
+    }
+    .walk-info-card {
+      background: var(--text); color: #fff; border-radius: 8px;
+      padding: 28px 24px; margin-top: 20px;
+    }
+    .walk-info-card h3 {
+      font-size: clamp(16px, 3vw, 20px); font-weight: 700;
+      margin-bottom: 8px; color: #fff;
+    }
+    .walk-info-card p {
+      font-size: clamp(11px, 1.8vw, 13px); color: rgba(255,255,255,0.7);
+      font-weight: 300; line-height: 1.7; margin-bottom: 16px;
+    }
+    .walk-details-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+    }
+    .walk-detail {
+      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 6px; padding: 14px;
+    }
+    .walk-detail-label {
+      font-size: 9px; text-transform: uppercase; letter-spacing: 1.5px;
+      color: var(--red); margin-bottom: 4px;
+    }
+    .walk-detail-value { font-size: 15px; font-weight: 700; color: #fff; }
+    @media (max-width: 520px) {
+      .map-wrapper { padding: 0 18px; }
+      .map-container { height: 280px; }
+      .area-card { padding: 16px 18px; }
+      .walk-info-card { padding: 20px 18px; }
+      .walk-details-grid { gap: 8px; }
+      .walk-detail { padding: 10px; }
+    }
+
     /* Hidden SEO text for search engines */
     .seo-only {
       position: absolute; width: 1px; height: 1px;
@@ -345,6 +457,7 @@
 <nav class="nav" aria-label="Main navigation">
   <button class="nav-btn active" onclick="setPage('home')" id="nav-home">Home</button>
   <button class="nav-btn" onclick="setPage('about')" id="nav-about">About</button>
+  <button class="nav-btn" onclick="setPage('where')" id="nav-where">Where</button>
 </nav>
 
 <!-- Language Toggle -->
@@ -410,6 +523,61 @@
   </div>
 </article>
 
+<!-- ======================== WHERE ======================== -->
+<article class="page" id="page-where">
+  <header>
+    <h1 class="logo-text" id="logo-where"></h1>
+    <p class="logo-sub" id="where-subtitle"></p>
+  </header>
+
+  <div class="divider"><div class="divider-line"></div><span class="divider-paw">&#128062;</span><div class="divider-line"></div></div>
+
+  <div class="map-wrapper">
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.5343770696336!2d2.3202415763174677!3d48.84801960143643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6718707a740f5%3A0x39344a3d6609801e!2sPanda%20and%20Zoz%C3%B2%20-%20Dog%20Walking%20Service!5e0!3m2!1sen!2sit!4v1773222808091!5m2!1sen!2sit"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        title="Panda & Zozò service area — Paris 6th, 7th & 5th arrondissements">
+      </iframe>
+    </div>
+  </div>
+
+  <div class="about-content" style="padding-top:24px;">
+    <h2 class="tagline" id="where-tagline"></h2>
+    <div id="where-areas"></div>
+
+    <div class="walk-info-card">
+      <h3 id="where-details-title"></h3>
+      <p id="where-details-text"></p>
+      <div class="walk-details-grid">
+        <div class="walk-detail">
+          <div class="walk-detail-label" id="wd-label-1"></div>
+          <div class="walk-detail-value" id="wd-value-1"></div>
+        </div>
+        <div class="walk-detail">
+          <div class="walk-detail-label" id="wd-label-2"></div>
+          <div class="walk-detail-value" id="wd-value-2"></div>
+        </div>
+        <div class="walk-detail">
+          <div class="walk-detail-label" id="wd-label-3"></div>
+          <div class="walk-detail-value" id="wd-value-3"></div>
+        </div>
+        <div class="walk-detail">
+          <div class="walk-detail-label" id="wd-label-4"></div>
+          <div class="walk-detail-value" id="wd-value-4"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-inline" style="padding: 28px 24px 40px;">
+    <a class="whatsapp-btn" id="whatsapp-where" href="#" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      <span id="cta-where"></span>
+    </a>
+  </div>
+</article>
+
 <footer id="footer-text"></footer>
 
 <!-- Load content and render -->
@@ -462,9 +630,6 @@
       if (s.about_width) document.querySelector('.about-illustration img').style.maxWidth = s.about_width;
     }
 
-    // Nav
-    document.getElementById('nav-about').textContent = C.nav.about[L];
-
     // Home
     document.getElementById('home-subtitle').textContent = C.home.subtitle[L];
     document.getElementById('home-tagline').textContent = C.home.tagline[L];
@@ -498,6 +663,41 @@
 
     // Footer
     document.getElementById('footer-text').textContent = C.footer[L];
+
+    // Where page
+    document.getElementById('logo-where').textContent = C.brand.name;
+    document.getElementById('where-subtitle').textContent = C.where.subtitle[L];
+    document.getElementById('where-tagline').textContent = C.where.tagline[L];
+    const waUrlW = 'https://wa.me/' + C.brand.whatsapp.replace(/[^0-9]/g, '');
+    document.getElementById('whatsapp-where').href = waUrlW;
+    document.getElementById('cta-where').textContent = C.home.cta[L];
+
+    // Where areas
+    const areasEl = document.getElementById('where-areas');
+    areasEl.innerHTML = '<div class="areas-label">' + C.where.areasLabel[L] + '</div>' +
+      '<div class="areas-grid">' +
+      C.where.areas.map(a =>
+        '<div class="area-card">' +
+        '<div class="area-arrond">' + a.arrond + '</div>' +
+        '<div class="area-name">' + a.name[L] + '</div>' +
+        '<div class="area-desc">' + a.desc[L] + '</div>' +
+        '<div class="area-tags">' + a.tags.map(t => '<span class="area-tag">' + t + '</span>').join('') + '</div>' +
+        '</div>'
+      ).join('') +
+      '</div>';
+
+    // Where walk details
+    document.getElementById('where-details-title').textContent = C.where.details.title[L];
+    document.getElementById('where-details-text').textContent = C.where.details.text[L];
+    C.where.details.items.forEach(function(item, i) {
+      document.getElementById('wd-label-' + (i+1)).textContent = item.label[L];
+      document.getElementById('wd-value-' + (i+1)).textContent = item.value[L];
+    });
+
+    // Nav labels
+    document.getElementById('nav-home').textContent = C.nav.home[L];
+    document.getElementById('nav-about').textContent = C.nav.about[L];
+    document.getElementById('nav-where').textContent = C.nav.where[L];
 
     // Language buttons
     document.getElementById('btn-en').classList.toggle('active', L === 'en');
