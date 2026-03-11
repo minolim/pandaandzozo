@@ -626,6 +626,11 @@
 
 <footer>
   <nav aria-label="Footer navigation" id="footer-nav" style="margin-bottom:12px;"></nav>
+  <noscript>
+    <nav style="margin-bottom:12px;font-size:11px;letter-spacing:1px;text-transform:uppercase;">
+      <a href="/">Home</a> · <a href="/about.html">About</a> · <a href="/where.html">Where</a> · <a href="/contact.html">Contact</a> · <a href="/fr/">Français</a>
+    </nav>
+  </noscript>
   <span id="footer-text"></span>
 </footer>
 
@@ -733,22 +738,22 @@
 
     // Footer
     document.getElementById('footer-text').textContent = C.footer[L];
-    var ls = 'color:var(--text-light);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;';
-    var as = 'color:var(--red);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;';
+    var ls = 'color:var(--text-light);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;cursor:pointer;';
+    var as = 'color:var(--red);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;cursor:pointer;';
     if (L === 'fr') {
       document.getElementById('footer-nav').innerHTML =
-        '<a href="/fr/" style="' + as + '">Accueil</a> · ' +
-        '<a href="/fr/about.html" style="' + ls + '">À propos</a> · ' +
-        '<a href="/fr/where.html" style="' + ls + '">Où</a> · ' +
-        '<a href="/fr/contact.html" style="' + ls + '">Contact</a> · ' +
-        '<a href="/" style="' + ls + '">English</a>';
+        '<a href="javascript:void(0)" onclick="setPage(\'home\')" style="' + as + '">Accueil</a> · ' +
+        '<a href="javascript:void(0)" onclick="setPage(\'about\')" style="' + ls + '">À propos</a> · ' +
+        '<a href="javascript:void(0)" onclick="setPage(\'where\')" style="' + ls + '">Où</a> · ' +
+        '<a href="https://wa.me/447712622536" target="_blank" rel="noopener" style="' + ls + '">Contact</a> · ' +
+        '<a href="javascript:void(0)" onclick="setLang(\'en\')" style="' + ls + '">English</a>';
     } else {
       document.getElementById('footer-nav').innerHTML =
-        '<a href="/" style="' + as + '">Home</a> · ' +
-        '<a href="/about.html" style="' + ls + '">About</a> · ' +
-        '<a href="/where.html" style="' + ls + '">Where</a> · ' +
-        '<a href="/contact.html" style="' + ls + '">Contact</a> · ' +
-        '<a href="/fr/" style="' + ls + '">Français</a>';
+        '<a href="javascript:void(0)" onclick="setPage(\'home\')" style="' + as + '">Home</a> · ' +
+        '<a href="javascript:void(0)" onclick="setPage(\'about\')" style="' + ls + '">About</a> · ' +
+        '<a href="javascript:void(0)" onclick="setPage(\'where\')" style="' + ls + '">Where</a> · ' +
+        '<a href="https://wa.me/447712622536" target="_blank" rel="noopener" style="' + ls + '">Contact</a> · ' +
+        '<a href="javascript:void(0)" onclick="setLang(\'fr\')" style="' + ls + '">Français</a>';
     }
 
     // Where page
