@@ -7,7 +7,7 @@
   <!-- SEO: Primary Meta (populated by content.js on load) -->
   <title>Panda & Zozò: Premium Dog Walking in Paris</title>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <meta name="description" content="Luxury dog walking service in Paris. 1.5–2 hour unhurried walks through the 6th arrondissement and beyond. Positive reinforcement, personalised care, premium quality.">
+  <meta name="description" content="Premium dog walking in Paris 6th, 7th & 5th arrondissement. 1.5 to 2 hour walks with positive reinforcement. Expat friendly. From 45€.">
   <meta name="keywords" content="dog walking Paris, promenade chien Paris, dog walker 6ème, luxury dog walking, premium dog walking Paris, promenade canine haut de gamme, dog sitter Paris, dog walking Saint-Germain, promenade chien Luxembourg, dog walking 75006, pet care Paris, garde chien Paris, positive reinforcement dog walking, balade chien Paris 6, dog walking Jardin du Luxembourg, high end dog walking Paris, dog walker Paris expat, promenade longue chien Paris">
   <meta name="author" content="Panda &amp; Zozò">
   <meta name="robots" content="index, follow">
@@ -17,7 +17,7 @@
   <!-- SEO: Open Graph (Facebook, LinkedIn, iMessage) -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Panda &amp; Zozò: Premium Dog Walking in Paris">
-  <meta property="og:description" content="Luxury dog walking service in Paris. 1.5–2 hour unhurried walks with positive reinforcement and personalised care.">
+  <meta property="og:description" content="Premium dog walking in Paris. 1.5 to 2 hour walks with positive reinforcement and personalised care.">
   <meta property="og:url" content="https://panda-zozo.com/">
   <meta property="og:site_name" content="Panda &amp; Zozò">
   <meta property="og:locale" content="en_GB">
@@ -26,7 +26,7 @@
   <!-- SEO: Twitter Card -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Panda &amp; Zozò: Premium Dog Walking in Paris">
-  <meta name="twitter:description" content="Luxury dog walking in Paris. Long, joyful, unhurried promenades for your dog.">
+  <meta name="twitter:description" content="Premium dog walking in Paris. Long, joyful promenades for your dog.">
 
   <!-- SEO: Geo targeting -->
   <meta name="geo.region" content="FR-75">
@@ -45,7 +45,7 @@
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Panda & Zozò",
-    "description": "Premium dog walking service in Paris offering 1.5–2 hour personalised walks with positive reinforcement in the 6th arrondissement and surrounding areas.",
+    "description": "Premium dog walking service in Paris offering 1.5 to 2 hour walks with positive reinforcement in the 6th arrondissement and surrounding areas.",
     "url": "https://panda-zozo.com",
     "telephone": "+447712622536",
     "address": {
@@ -110,7 +110,7 @@
         "name": "How long are the dog walks with Panda & Zozò?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Every walk lasts between 1.5 and 2 hours. We never rush — your dog gets the time they need to explore, sniff, and enjoy."
+          "text": "Every walk lasts between 1.5 and 2 hours. We never rush. Your dog gets the time they need to explore, sniff, and enjoy."
         }
       },
       {
@@ -330,7 +330,8 @@
     .page.active .map-wrapper { animation: fadeUp 0.7s 0.15s ease both; }
     .page.active main,
     .page.active .about-content { animation: fadeUp 0.7s 0.3s ease both; }
-    .page.active .cta-inline { animation: fadeUp 0.7s 0.35s ease both; }
+    .page.active .reviews-section { animation: fadeUp 0.7s 0.4s ease both; }
+    .page.active .cta-inline { animation: fadeUp 0.7s 0.45s ease both; }
     @media (max-width: 520px) {
       header { padding: 54px 16px 8px; }
       h1, .logo-text { font-size: 26px; margin-bottom: 2px; }
@@ -358,6 +359,44 @@
       .pricing-amount { font-size: 26px; }
       .pricing-divider { height: 36px; }
     }
+    /* REVIEWS */
+    .reviews-section { max-width: 680px; margin: 8px auto 0; padding: 0 28px 20px; }
+    .reviews-title {
+      font-family: 'TAY Basal', 'Courier New', monospace;
+      font-size: clamp(16px, 3vw, 20px);
+      color: var(--red); text-align: center;
+      margin-bottom: 20px; font-weight: normal;
+    }
+    .reviews-grid { display: flex; flex-direction: column; gap: 14px; }
+    .review-card {
+      background: var(--white); border-radius: 8px; padding: 20px 22px;
+      box-shadow: 0 1px 8px rgba(0,0,0,0.04);
+    }
+    .review-header { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+    .review-avatar {
+      width: 32px; height: 32px; border-radius: 50%;
+      background: var(--red); color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 13px; font-weight: 700; flex-shrink: 0;
+    }
+    .review-name { font-size: 12px; font-weight: 700; letter-spacing: 0.3px; }
+    .review-stars { color: #F5A623; font-size: 13px; letter-spacing: 1px; }
+    .review-text {
+      font-size: clamp(11px, 1.7vw, 12.5px); color: var(--text-body);
+      font-weight: 300; line-height: 1.7; font-style: italic;
+    }
+    .review-google-link {
+      display: block; text-align: center; margin-top: 18px;
+      font-size: 11px; color: var(--red); letter-spacing: 0.5px;
+      text-decoration: none; font-weight: 700;
+    }
+    .review-google-link:hover { text-decoration: underline; }
+    @media (max-width: 520px) {
+      .reviews-section { padding: 0 18px 16px; }
+      .review-card { padding: 16px 18px; }
+      .reviews-title { font-size: 16px; margin-bottom: 14px; }
+    }
+
     /* WHERE PAGE */
     .map-wrapper { padding: 0 28px; max-width: 680px; margin: 0 auto 8px; }
     .map-container {
@@ -470,7 +509,7 @@
 <!-- ======================== HOME ======================== -->
 <article class="page active" id="page-home" itemscope itemtype="https://schema.org/Service">
   <header>
-    <h1 class="logo-text" id="logo-home"></h1>
+    <h1 class="logo-text" id="logo-home">Panda & Zozò</h1>
     <p class="logo-sub" id="home-subtitle"></p>
   </header>
 
@@ -496,12 +535,18 @@
 
     <div class="pricing-inline" id="pricing-container"></div>
   </main>
+
+  <div class="reviews-section">
+    <h2 class="reviews-title" id="reviews-title"></h2>
+    <div class="reviews-grid" id="reviews-grid"></div>
+    <a class="review-google-link" id="reviews-google-link" href="#" target="_blank" rel="noopener"></a>
+  </div>
 </article>
 
 <!-- ======================== ABOUT ======================== -->
 <article class="page" id="page-about">
   <header>
-    <h1 class="logo-text" id="logo-about"></h1>
+    <h1 class="logo-text" id="logo-about">Panda & Zozò</h1>
     <p class="logo-sub" id="about-subtitle"></p>
   </header>
 
@@ -527,7 +572,7 @@
 <!-- ======================== WHERE ======================== -->
 <article class="page" id="page-where">
   <header>
-    <h1 class="logo-text" id="logo-where"></h1>
+    <h1 class="logo-text" id="logo-where">Panda & Zozò</h1>
     <p class="logo-sub" id="where-subtitle"></p>
   </header>
 
@@ -579,7 +624,16 @@
   </div>
 </article>
 
-<footer id="footer-text"></footer>
+<footer>
+  <nav aria-label="Footer navigation" style="margin-bottom:12px;">
+    <a href="/" style="color:var(--red);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;">Home</a> ·
+    <a href="/about.html" style="color:var(--text-light);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;">About</a> ·
+    <a href="/where.html" style="color:var(--text-light);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;">Where</a> ·
+    <a href="/contact.html" style="color:var(--text-light);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;">Contact</a> ·
+    <a href="/fr/" style="color:var(--text-light);text-decoration:none;font-size:11px;letter-spacing:1px;text-transform:uppercase;">Français</a>
+  </nav>
+  <span id="footer-text"></span>
+</footer>
 
 <!-- Load content and render -->
 <script src="content.js"></script>
@@ -658,6 +712,27 @@
 
     // About
     document.getElementById('about-subtitle').textContent = C.about.subtitle[L];
+
+    // Reviews
+    document.getElementById('reviews-title').textContent = C.reviews.title[L];
+    document.getElementById('reviews-google-link').href = C.reviews.googleLink;
+    document.getElementById('reviews-google-link').textContent = C.reviews.googleLinkText[L];
+    var rg = document.getElementById('reviews-grid');
+    rg.innerHTML = C.reviews.items.map(function(r) {
+      var initial = r.name.charAt(0);
+      var stars = '';
+      for (var i = 0; i < r.stars; i++) stars += '★';
+      return '<div class="review-card">' +
+        '<div class="review-header">' +
+        '<div class="review-avatar">' + initial + '</div>' +
+        '<div><div class="review-name">' + r.name + '</div>' +
+        '<div class="review-stars">' + stars + '</div></div>' +
+        '</div>' +
+        '<p class="review-text">"' + r.text[L] + '"</p>' +
+        '</div>';
+    }).join('');
+
+    // About (page)
     document.getElementById('about-title').textContent = C.about.title[L];
     const aboutBody = document.getElementById('about-body');
     aboutBody.innerHTML = C.about.paragraphs[L].map(p => '<p class="body-text">' + p + '</p>').join('');

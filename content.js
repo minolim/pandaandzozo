@@ -108,6 +108,53 @@ const SITE_CONTENT = {
     },
   },
 
+  // ---- REVIEWS ----
+  reviews: {
+    title: {
+      en: "What dog parents say",
+      fr: "Ce que disent les maîtres",
+    },
+    googleLink: "https://www.google.com/maps/place/Panda+and+Zoz%C3%B2+-+Dog+Walking+Service/",
+    googleLinkText: {
+      en: "See all reviews on Google →",
+      fr: "Voir tous les avis sur Google →",
+    },
+    items: [
+      {
+        name: "Sophie M.",
+        stars: 5,
+        text: {
+          en: "We relocated to Paris from London and needed a dog walker who understands anxious rescues. From the very first walk through Saint-Germain, our dog came back calm and happy. The best dog walking service in Paris for expats, hands down.",
+          fr: "Nous avons déménagé de Londres à Paris et avions besoin d'un promeneur qui comprend les chiens anxieux. Dès la première balade à Saint-Germain, notre chien est rentré calme et heureux. Le meilleur service de promenade canine à Paris pour les expats.",
+        },
+      },
+      {
+        name: "Thomas L.",
+        stars: 5,
+        text: {
+          en: "Finally a premium dog walk that is actually premium. Two hours through the Jardin du Luxembourg, not rushed, not a packed group. Our beagle sleeps the entire evening after. Worth every euro for a quality dog walker in the 6th arrondissement.",
+          fr: "Enfin une promenade canine premium qui l'est vraiment. Deux heures au Jardin du Luxembourg, sans pression, pas de groupe surchargé. Notre beagle dort toute la soirée. Chaque euro est mérité pour un promeneur de qualité dans le 6ème.",
+        },
+      },
+      {
+        name: "Claire & Antoine",
+        stars: 5,
+        text: {
+          en: "The positive reinforcement approach made a real difference with our reactive dog. She used to pull and bark at everything on walks near Invalides. Now she strolls calmly through the 7th. Truly personalised dog care in Paris.",
+          fr: "L'approche par renforcement positif a fait toute la différence avec notre chienne réactive. Elle tirait et aboyait sur tout près des Invalides. Maintenant elle se promène calmement dans le 7ème. Un vrai soin canin personnalisé à Paris.",
+        },
+      },
+      {
+        name: "James W.",
+        stars: 5,
+        text: {
+          en: "As an expat with long work hours, finding a reliable dog sitter in central Paris felt impossible. Panda and Zozò changed that completely. The 1.5 hour walks through the 5th and 6th are exactly what our pup needs. WhatsApp updates with photos mid-walk are a lovely touch.",
+          fr: "En tant qu'expat avec de longues journées, trouver un dog sitter fiable dans le centre de Paris semblait impossible. Panda et Zozò a tout changé. Les balades d'1h30 dans le 5ème et le 6ème sont exactement ce qu'il faut à notre chien. Les photos WhatsApp pendant la promenade, c'est un plus adorable.",
+        },
+      },
+    ],
+  },
+
   // ---- WHERE PAGE ----
   where: {
     subtitle: {
@@ -127,8 +174,8 @@ const SITE_CONTENT = {
         arrond: "6ème",
         name: { en: "Saint-Germain-des-Prés", fr: "Saint-Germain-des-Prés" },
         desc: {
-          en: "Our home base. Quiet residential streets, leafy squares, and the magnificent Jardin du Luxembourg — the crown jewel of every walk.",
-          fr: "Notre quartier. Rues résidentielles calmes, places verdoyantes, et le magnifique Jardin du Luxembourg — le joyau de chaque promenade.",
+          en: "Our home base. Quiet residential streets, leafy squares, and the magnificent Jardin du Luxembourg, the crown jewel of every walk.",
+          fr: "Notre quartier. Rues résidentielles calmes, places verdoyantes, et le magnifique Jardin du Luxembourg, le joyau de chaque promenade.",
         },
         tags: ["Jardin du Luxembourg", "Rue de Fleurus", "Place Saint-Sulpice", "Rue de Vaugirard"],
       },
@@ -145,8 +192,8 @@ const SITE_CONTENT = {
         arrond: "5ème",
         name: { en: "Latin Quarter", fr: "Quartier Latin" },
         desc: {
-          en: "Charming cobblestone streets, the Jardin des Plantes for nature lovers, and calm paths along the Seine — perfect for curious dogs.",
-          fr: "Rues pavées charmantes, le Jardin des Plantes pour les amoureux de la nature, et des chemins calmes le long de la Seine — parfait pour les chiens curieux.",
+          en: "Charming cobblestone streets, the Jardin des Plantes for nature lovers, and calm paths along the Seine. Perfect for curious dogs.",
+          fr: "Rues pavées charmantes, le Jardin des Plantes pour les amoureux de la nature, et des chemins calmes le long de la Seine. Parfait pour les chiens curieux.",
         },
         tags: ["Jardin des Plantes", "Rue Mouffetard", "Arènes de Lutèce", "Square René Viviani"],
       },
@@ -161,7 +208,7 @@ const SITE_CONTENT = {
         fr: "Nos promenades ne sont jamais pressées. Chacune dure 1h30 à 2 heures, laissant à votre chien le temps d'explorer, renifler, socialiser, et simplement profiter d'être un chien dans l'une des plus belles villes du monde.",
       },
       items: [
-        { label: { en: "Duration", fr: "Durée" }, value: { en: "1.5 – 2 hours", fr: "1h30 – 2 heures" } },
+        { label: { en: "Duration", fr: "Durée" }, value: { en: "1.5 to 2 hours", fr: "1h30 à 2 heures" } },
         { label: { en: "Starting from", fr: "À partir de" }, value: { en: "45 €", fr: "45 €" } },
         { label: { en: "Method", fr: "Méthode" }, value: { en: "Positive only", fr: "Renforcement positif" } },
         { label: { en: "Coverage", fr: "Zone" }, value: { en: "5e · 6e · 7e", fr: "5e · 6e · 7e" } },
@@ -173,8 +220,8 @@ const SITE_CONTENT = {
   seo: {
     title_en: "Panda & Zozò: Premium Dog Walking in Paris Rive Gauche | Promenades Canines de Luxe Rive Gauche",
     title_fr: "Panda & Zozò: Promenades Canines de Luxe à Paris | Premium Dog Walking",
-    description_en: "Luxury dog walking service in Paris. 1.5–2 hour unhurried walks through the 6th arrondissement, Rive Gauche, and beyond. Positive reinforcement, personalised care, premium quality. WhatsApp to book.",
-    description_fr: "Service de promenades canines haut de gamme à Paris. Balades de 1h30 à 2h dans le 6ème arrondissement, Rive Gauche, et au-delà. Renforcement positif, soins personnalisés, qualité premium.",
+    description_en: "Premium dog walking in Paris 6th, 7th and 5th arrondissement. 1.5 to 2 hour walks with positive reinforcement. Personalised care. Expat friendly. WhatsApp to book.",
+    description_fr: "Promenade canine haut de gamme à Paris 6ème, 7ème et 5ème arrondissement. Balades de 1h30 à 2h. Renforcement positif, soins personnalisés. WhatsApp pour réserver.",
     keywords: "dog walking Paris, promenade chien Paris, dog walker 6ème, rive gauche, luxury dog walking, premium dog walking Paris, promenade canine haut de gamme, dog sitter Paris, dog walking Saint-Germain, promenade chien Luxembourg, dog walking 75006, pet care Paris, garde chien Paris, positive reinforcement dog walking, balade chien Paris 6, dog walking Jardin du Luxembourg, promenade chien Saint-Germain-des-Prés, high end dog walking Paris, dog walker Paris expat, promenade longue chien Paris",
   },
 
