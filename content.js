@@ -21,9 +21,9 @@ const SITE_CONTENT = {
   // Put new SVG or image files in the /images folder.
   // Set show to false to hide a dog.
   images: {
-    dog1: { src: "images/dog-1.svg", show: true },
-    dog2: { src: "images/dog-2.svg", show: true },
-    about: "images/about.svg",
+    dog1: { src: "/images/dog-1.svg", show: true },
+    dog2: { src: "/images/dog-2.svg", show: true },
+    about: "/images/about.svg",
   },
 
   // ---- IMAGE SIZING ----
