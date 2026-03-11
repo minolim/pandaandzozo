@@ -124,16 +124,16 @@ const SITE_CONTENT = {
         name: "Sophie M.",
         stars: 5,
         text: {
-          en: "We needed a premium dog walker in the 6th arrondissement who truly understands anxious dogs. From the very first walk through Saint-Germain-des-Pr\u00e9s, our rescue came back calm and happy. The quality of care is on another level.",
-          fr: "Nous avions besoin d'un promeneur canin premium dans le 6\u00e8me qui comprend vraiment les chiens anxieux. D\u00e8s la premi\u00e8re balade \u00e0 Saint-Germain-des-Pr\u00e9s, notre chien est rentr\u00e9 calme et heureux. La qualit\u00e9 du service est exceptionnelle.",
+          en: "We needed a premium dog walker in the 6th arrondissement who truly understands anxious dogs. From the very first walk through Saint-Germain, our rescue came back calm and happy. The quality of care is on another level.",
+          fr: "Nous avions besoin d\u0027un promeneur canin premium dans le 6\u00e8me qui comprend les chiens anxieux. D\u00e8s la premi\u00e8re balade \u00e0 Saint-Germain, notre chien est rentr\u00e9 calme et heureux. La qualit\u00e9 du service est exceptionnelle.",
         },
       },
       {
         name: "Thomas L.",
         stars: 5,
         text: {
-          en: "This is luxury dog walking done right. Two full hours through the Jardin du Luxembourg, no rushing, no packed groups. Our beagle sleeps the entire evening after. The best dog walking service in Paris 6\u00e8me, without question.",
-          fr: "C'est la promenade canine de luxe bien faite. Deux heures compl\u00e8tes au Jardin du Luxembourg, sans pression, pas de groupe surcharg\u00e9. Notre beagle dort toute la soir\u00e9e. Le meilleur service de promenade du 6\u00e8me, sans h\u00e9siter.",
+          en: "This is luxury dog walking done right. Two full hours through the Jardin du Luxembourg, no rushing, no packed groups. Our beagle sleeps the entire evening after. The best dog walking service in Paris, without question.",
+          fr: "La promenade canine de luxe bien faite. Deux heures au Jardin du Luxembourg, sans pression, pas de groupe surcharg\u00e9. Notre beagle dort toute la soir\u00e9e. Le meilleur service de promenade du 6\u00e8me.",
         },
       },
       {
@@ -141,15 +141,15 @@ const SITE_CONTENT = {
         stars: 5,
         text: {
           en: "Positive reinforcement made a real difference with our reactive dog. She used to pull and bark on every walk near Invalides. Now she strolls calmly through the 7th arrondissement. Personalised, high quality dog care in Paris.",
-          fr: "Le renforcement positif a fait toute la diff\u00e9rence avec notre chienne r\u00e9active. Elle tirait et aboyait pr\u00e8s des Invalides. Maintenant elle se prom\u00e8ne calmement dans le 7\u00e8me arrondissement. Un service canin personnalis\u00e9 et haut de gamme \u00e0 Paris.",
+          fr: "Le renforcement positif a fait toute la diff\u00e9rence avec notre chienne r\u00e9active. Elle tirait et aboyait pr\u00e8s des Invalides. Maintenant elle se prom\u00e8ne calmement dans le 7\u00e8me. Un service canin personnalis\u00e9 et haut de gamme.",
         },
       },
       {
         name: "James W.",
         stars: 5,
         text: {
-          en: "With long work hours, finding a reliable English speaking dog walker in central Paris felt impossible. The 1.5 hour premium walks through the 5th and 6th arrondissements are exactly what our pup needs. Photos during the walk are a lovely touch.",
-          fr: "Avec de longues journ\u00e9es de travail, trouver un dog walker fiable et anglophone dans le centre de Paris semblait impossible. Les balades premium d'1h30 dans le 5\u00e8me et le 6\u00e8me sont exactement ce qu'il faut. Les photos pendant la promenade, c'est un plus adorable.",
+          en: "With long work hours, finding a reliable English speaking dog walker in central Paris felt impossible. The 1.5 hour premium walks through the 5th and 6th are exactly what our pup needs. Photos during the walk are a lovely touch.",
+          fr: "Avec de longues journ\u00e9es de travail, trouver un dog walker premium dans le centre de Paris semblait impossible. Les balades dans le 5\u00e8me et le 6\u00e8me sont exactement ce qu\u0027il faut. Les photos pendant la promenade, un plus adorable.",
         },
       },
     ],
@@ -222,7 +222,7 @@ const SITE_CONTENT = {
     title_fr: "Panda & Zozò: Promenades Canines de Luxe à Paris | Premium Dog Walking",
     description_en: "Premium dog walking in Paris 6th, 7th and 5th arrondissement. 1.5 to 2 hour walks with positive reinforcement. Personalised care. Expat friendly. WhatsApp to book.",
     description_fr: "Promenade canine haut de gamme à Paris 6ème, 7ème et 5ème arrondissement. Balades de 1h30 à 2h. Renforcement positif, soins personnalisés. WhatsApp pour réserver.",
-    keywords: "premium dog walking Paris, luxury dog walking Paris, dog walking Paris 6ème, dog walking Paris 7ème, promenade canine haut de gamme Paris, dog walker Saint-Germain-des-Prés, promenade chien Paris 6ème, dog walking Jardin du Luxembourg, promenade chien Luxembourg, dog walking 75006, English speaking dog walker Paris, dog walker Paris 7th arrondissement, dog walking Paris 5ème, positive reinforcement dog walking Paris, promenade longue chien Paris, promenade chien haut de gamme, pet care Paris, garde chien Paris 6ème, balade chien Paris 6",
+    keywords: "premium dog walking Paris, luxury dog walking Paris, dog walking Paris 6ème, dog walking Paris 7ème, promenade canine haut de gamme Paris, dog walker Saint-Germain-des-Prés, promenade chien Paris 6ème, dog walking Jardin du Luxembourg, promenade chien Luxembourg, dog walking 75006, dog walker Paris 7th arrondissement, dog walking Paris 5ème, positive reinforcement dog walking Paris, promenade longue chien Paris, promenade chien haut de gamme, pet care Paris, garde chien Paris 6ème, balade chien Paris 6",
   },
 
   // ---- FOOTER ----

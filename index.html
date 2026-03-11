@@ -712,8 +712,12 @@
 
     // About
     document.getElementById('about-subtitle').textContent = C.about.subtitle[L];
+    document.getElementById('about-title').textContent = C.about.title[L];
+    const aboutBody = document.getElementById('about-body');
+    aboutBody.innerHTML = C.about.paragraphs[L].map(p => '<p class="body-text">' + p + '</p>').join('');
 
     // Reviews
+    try {
     document.getElementById('reviews-title').textContent = C.reviews.title[L];
     document.getElementById('reviews-google-link').href = C.reviews.googleLink;
     document.getElementById('reviews-google-link').textContent = C.reviews.googleLinkText[L];
@@ -731,11 +735,7 @@
         '<p class="review-text">"' + r.text[L] + '"</p>' +
         '</div>';
     }).join('');
-
-    // About (page)
-    document.getElementById('about-title').textContent = C.about.title[L];
-    const aboutBody = document.getElementById('about-body');
-    aboutBody.innerHTML = C.about.paragraphs[L].map(p => '<p class="body-text">' + p + '</p>').join('');
+    } catch(e) { console.error('Reviews error:', e); }
 
     // Footer
     document.getElementById('footer-text').textContent = C.footer[L];
