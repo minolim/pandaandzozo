@@ -132,8 +132,8 @@ const SITE_CONTENT = {
         name: "Thomas L.",
         stars: 5,
         text: {
-          en: "This is luxury dog walking done right. Two full hours through the Jardin du Luxembourg, no rushing, no packed groups. Our beagle sleeps the entire evening after. The best dog walking service in Paris, without question.",
-          fr: "La promenade canine de luxe bien faite. Deux heures au Jardin du Luxembourg, sans pression, pas de groupe surcharg\u00e9. Notre beagle dort toute la soir\u00e9e. Le meilleur service de promenade du 6\u00e8me.",
+          en: "This is luxury dog walking done right. Two full hours around the Jardin du Luxembourg, no rushing, no packed groups. Our beagle sleeps the entire evening after. The best dog walking service in Paris, without question.",
+          fr: "La promenade canine de luxe bien faite. Deux heures autour du Jardin du Luxembourg, sans pression, pas de groupe surcharg\u00e9. Notre beagle dort toute la soir\u00e9e. Le meilleur service de promenade du 6\u00e8me.",
         },
       },
       {
