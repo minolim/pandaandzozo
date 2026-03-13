@@ -114,7 +114,7 @@ const SITE_CONTENT = {
       en: "What dog parents say",
       fr: "Ce que disent les maîtres",
     },
-    googleLink: "https://www.google.com/maps/place/Panda+and+Zoz%C3%B2+-+Dog+Walking+Service/",
+    googleLink: "https://share.google/Fp1laAgIl7WJv2X88",
     googleLinkText: {
       en: "See all reviews on Google →",
       fr: "Voir tous les avis sur Google →",
