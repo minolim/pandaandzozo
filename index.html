@@ -403,13 +403,20 @@
     .map-container {
       width: 100%; height: 380px; border-radius: 8px; overflow: hidden;
       box-shadow: 0 2px 16px rgba(0,0,0,0.06);
-      background: #e8e2d8 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Ctext x='20' y='36' font-size='24'%3E%F0%9F%97%BA%3C/text%3E%3C/svg%3E") center center no-repeat;
-      background-size: 60px;
+      background: #e8e2d8;
+      position: relative;
     }
-    .map-container iframe { width: 100%; height: 100%; border: 0; }
-    .areas-label {
-      font-size: 10px; text-transform: uppercase; letter-spacing: 3px;
-      color: var(--red); margin-bottom: 16px; text-align: center;
+    .map-container::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(90deg, #e8e2d8 25%, #f2ece2 50%, #e8e2d8 75%);
+      background-size: 200% 100%;
+      animation: mapShimmer 1.6s ease-in-out infinite;
+    }
+    .map-container.map-ready::before { display: none; }
+    @keyframes mapShimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
     }
     .areas-grid { display: flex; flex-direction: column; gap: 16px; }
     .area-card {
@@ -568,7 +575,7 @@
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.5343770696336!2d2.3202415763174677!3d48.84801960143643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6718707a740f5%3A0x39344a3d6609801e!2sPanda%20and%20Zoz%C3%B2%20-%20Dog%20Walking%20Service!5e0!3m2!1sen!2sit!4v1773222808091!5m2!1sen!2sit"
         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-        title="Panda & Zozò service area: Paris 6th, 7th & 5th arrondissements">
+        title="Panda & Zozò service area: Paris 6th, 7th & 5th arrondissements" onload="this.classList.add('loaded'); this.parentElement.classList.add('map-ready')">
       </iframe>
     </div>
   </div>
